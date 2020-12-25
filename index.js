@@ -16,7 +16,7 @@ function move_right() {
     let noOfQuestions = 5;
     store[qno] = rating;
     update();
-    mystr = `<p style="font-size: 30px; text-align: center;"><b>Results:</b></p>`;
+    mystr = `<p style="font-size: 30px; text-align: center; color: rgb(255,255,255)"><b>Results:</b></p>`;
     mystr += `<table class="table table-light tabledimensions"><thead><tr><th scope="col">Qno</th><th scope="col">Given Rating</th><th scope="col">Comment: </th></tr></thead><tbody>`;
 
     if (qno == noOfQuestions) {
